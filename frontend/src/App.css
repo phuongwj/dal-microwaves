@@ -1,12 +1,17 @@
 #root {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
 }
 
 #map-container {
+  flex: 1;
   height: 100%;
   width: 100%;
   /* temporarily set the background color so we can tell where the map container is positioned */
@@ -14,7 +19,7 @@
 }
 
 .sidebar {
-  background-color: rgv(35 55 75 / 90%);
+  background-color: rgb(35 55 75 / 90%);
   color: #fff;
   padding: 6px 12px;
   font-family: monospace;
@@ -34,4 +39,16 @@
   padding: 4px 10px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .sidebar {
+    font-size: 0.95em;
+    padding: 8px 6px;
+  }
+  .reset-button {
+    font-size: 0.95em;
+    padding: 8px 0;
+  }
 }
