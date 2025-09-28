@@ -1,3 +1,4 @@
+require('dotenv').config()
 import { useRef, useEffect, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
 
@@ -28,7 +29,7 @@ export default function App() {
 
   useEffect(() => {
     // public access token is for client-side, read-only purposes
-    mapboxgl.accessToken= 'pk.eyJ1IjoicGh1b25nd2oiLCJhIjoiY21mZm80Z3B3MDlydzJrcHJid3FxbGhkaiJ9.aRW3K9wrIDI6Ij3CLYGvzQ'
+    mapboxgl.accessToken= process.env.MAPBOX_ACCESS_TOKEN;
 
     mapRef.current = new mapboxgl.Map({
       container: mapContainerRef.current,
