@@ -2,7 +2,7 @@
 
 A map application (web-based) to help students locate, rate, and contribute available microwaves on campus. 
 
-Initial database for the microwaves is provided by the posts on the[dal_microwaves](https://www.instagram.com/dal_microwave) Instagram account (huge thank you to the people doing this work).
+Initial database for the microwaves is provided by the posts on the [dal_microwaves](https://www.instagram.com/dal_microwave) Instagram account (huge thank you to the people doing this work).
 
 ## Running the repository locally
 
