@@ -1,5 +1,9 @@
 # Dalhousie Microwaves
 
+A map application (web-based) to help students locate, rate, and contribute available microwaves on campus. 
+
+Initial database for the microwaves is provided by the posts on the[dal_microwaves](https://www.instagram.com/dal_microwave) Instagram account (huge thank you to the people doing this work).
+
 ## Running the repository locally
 
 Download a copy of the prpoject to your computer
@@ -19,4 +23,4 @@ npm i
 npm run dev
 ```
 
-> This will forward you to the frontend directory, then it will install all the required dependencies of the project, then also run the web app locally at http://localhost:5173
+> This will forward you to the frontend directory, install all the required dependencies of the project, then run the web app locally at http://localhost:5173
