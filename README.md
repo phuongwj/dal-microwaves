@@ -1,1 +1,1 @@
-# dal-microwaves
+# Dalhousie Microwaves
